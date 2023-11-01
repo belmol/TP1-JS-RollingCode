@@ -62,3 +62,23 @@ function ejercicio9() {
     }
     document.write(vocales);
 }
+
+// Ejercicio 10
+function ejercicio10() {
+    let numero = parseInt(prompt("Por favor, ingresa un número"));
+    let divisible = "";
+    if (numero % 2 === 0) {
+        divisible += "2, ";
+    }
+    if (numero % 3 === 0) {
+        divisible += "3, ";
+    }
+    if (numero % 5 === 0) {
+        divisible += "5, ";
+    }
+    if (numero % 7 === 0) {
+        divisible += "7, ";
+    }
+    let esDivisiblePorAlguno = divisible === "" ? `El ${numero} no es divisible por 2, 3, 5 o 7.` : `El ${numero} es divisible por ${divisible.slice(0, -2)}.`;
+    document.write(esDivisiblePorAlguno);
+}
