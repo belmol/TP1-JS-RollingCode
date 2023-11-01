@@ -9,3 +9,9 @@ function ejercicio3() {
     let resultado = 3 + 5;
     document.write(resultado);
 }
+// Ejercicio 4
+function ejercicio4() {
+    const nombreUsuario = prompt("Por favor, ingresa tu nombre");
+    let saludo = `Hola ${nombreUsuario}`;
+    document.write(saludo);
+}
