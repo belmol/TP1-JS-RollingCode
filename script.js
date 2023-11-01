@@ -35,3 +35,11 @@ function ejercicio6() {
     document.write(mayor);
 }
 
+// Ejercicio 7
+function ejercicio7() {
+    let numero1 = parseInt(prompt("Por favor, ingresa el primer número"));
+    let numero2 = parseInt(prompt("Por favor, ingresa el segundo número"));
+    let numero3 = parseInt(prompt("Por favor, ingresa el tercer número"));
+    let max = Math.max(numero1, numero2, numero3);
+    document.write(max);
+}
