@@ -43,3 +43,10 @@ function ejercicio7() {
     let max = Math.max(numero1, numero2, numero3);
     document.write(max);
 }
+
+// Ejercicio 8
+function ejercicio8() {
+    let numero = parseInt(prompt("Por favor, ingresa un número"));
+    let esDivisible = numero % 2 === 0 ? `El ${numero} es divisible por 2.` : `El ${numero} no es divisible por 2.`;
+    document.write(esDivisible);
+}
