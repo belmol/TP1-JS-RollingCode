@@ -50,3 +50,15 @@ function ejercicio8() {
     let esDivisible = numero % 2 === 0 ? `El ${numero} es divisible por 2.` : `El ${numero} no es divisible por 2.`;
     document.write(esDivisible);
 }
+
+// Ejercicio 9
+function ejercicio9() {
+    let frase = prompt("Por favor, ingresa una frase");
+    let vocales = "";
+    for (let i = 0; i < frase.length; i++) {
+        if ("aeiou".includes(frase.charAt(i).toLowerCase())) {
+            vocales += frase.charAt(i);
+        }
+    }
+    document.write(vocales);
+}
