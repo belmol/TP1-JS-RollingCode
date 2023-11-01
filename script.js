@@ -15,3 +15,10 @@ function ejercicio4() {
     let saludo = `Hola ${nombreUsuario}`;
     document.write(saludo);
 }
+// Ejercicio 5
+function ejercicio5() {
+    let numero1 = parseInt(prompt("Por favor, ingresa el primer número"));
+    let numero2 = parseInt(prompt("Por favor, ingresa el segundo número"));
+    const suma = numero1 + numero2;
+    document.write(suma);
+}
