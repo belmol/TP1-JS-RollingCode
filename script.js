@@ -22,3 +22,16 @@ function ejercicio5() {
     const suma = numero1 + numero2;
     document.write(suma);
 }
+// Ejercicio 6
+function ejercicio6() {
+    let numero1 = parseInt(prompt("Por favor, ingresa el primer número"));
+    let numero2 = parseInt(prompt("Por favor, ingresa el segundo número"));
+    let mayor;
+    if (numero1 > numero2) {
+        mayor = numero1;
+    } else {
+        mayor = numero2;
+    }
+    document.write(mayor);
+}
+
